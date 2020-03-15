@@ -25,10 +25,15 @@ Following are the functions available for your use -
 <br/><br/>
 
 ## Usage
+In your HTML file kindly include require.js, which is a client side require alternative by adding the following script tag at the bottom of your body tag.
+```
+<script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
+```
+<br/><br/>
 After installation, following functions can be utilised in your javascript file.<br/><br/>
 Import *Nue* using the following code<br/><br/>
 ```
-let Nue = require('nue');
+require(['./node_modules/nue.js/index']);
 ```
 <br/><br/>
 To apply Nue, use the following code <br/><br/>
