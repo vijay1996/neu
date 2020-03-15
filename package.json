@@ -1,0 +1,25 @@
+{
+  "name": "neu",
+  "version": "1.0.0",
+  "description": "Webpages do not have to look boring anymore.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijay1996/neu.git"
+  },
+  "keywords": [
+    "neumorphism",
+    "neomorphism",
+    "style",
+    "css"
+  ],
+  "author": "Vijaybhoj Raj C M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijay1996/neu/issues"
+  },
+  "homepage": "https://github.com/vijay1996/neu#readme"
+}
