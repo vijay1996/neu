@@ -6,7 +6,7 @@
 ## Installation
 <br/><br/>
 *Neu* is available as open source node package to all developers to use in projects.
-It can be installed by running the following node command: <br/>
+It can be installed by running the following node command: <br/><br/>
 ```npm install neu --save```
 <br/><br/>
 
@@ -26,19 +26,17 @@ Following are the functions available for your use -
 <br/><br/>
 
 ## Usage
-After installation, following functions can be utilised in your javascript file.<br/>
-<br/>
-Import *Neu* using the following code
-<br/>
+After installation, following functions can be utilised in your javascript file.<br/><br/>
+Import *Neu* using the following code<br/><br/>
 ```
 let neu = require('neu');
 ```
-<br/>
-To apply Neu, use the following code<br/>
+<br/><br/>
+To apply Neu, use the following code <br/><br/>
 ```
 applyNeu();
 ```
-Following parameters can be passed on with the above function - <br/>
+Following parameters can be passed on with the above function - <br/><br/>
 ```
 applyNeu(option)
 option = "TL" *DEFAULT - To place light source on top left of the screen
