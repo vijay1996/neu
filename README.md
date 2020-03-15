@@ -26,7 +26,7 @@ Following are the functions available for your use -
 <br/><br/>
 
 ## Usage
-After installation, following functions can be utilised in your javascript file.
+After installation, following functions can be utilised in your javascript file.<br/>
 <br/>
 Import *Neu* using the following code
 <br/>
@@ -34,11 +34,11 @@ Import *Neu* using the following code
 let neu = require('neu');
 ```
 <br/>
-To apply Neu, use the following code
+To apply Neu, use the following code<br/>
 ```
 applyNeu();
 ```
-Following parameters can be passed on with the above function - 
+Following parameters can be passed on with the above function - <br/>
 ```
 applyNeu(option)
 option = "TL" *DEFAULT - To place light source on top left of the screen
@@ -50,19 +50,19 @@ option = "B" *To place light source on bottom of the screen
 option = "BL" *To place light source on bottom left of the screen
 option = "L" *To place light source on left of the screen
 ```
-<br/>
+<br/><br/>
 To apply Neu to a particular element,
 ```
 applyNeuToElement(element)
 element - can be a tag, class name has to start with '.', ID name has to start with '#'
 ```
-<br/>
+<br/><br/>
 To remove Neu from a particular element,
 ```
 removeNeuFromElement(element)
 element - can be a tag, class name has to start with '.', ID name has to start with '#'
 ```
-<br/>
+<br/><br/>
 To align element,
 ```
 applyNeuToElement(element,alignment)
