@@ -2,6 +2,8 @@
 ###### Experience how just an import statement can make your webpage look cool
 <br/><br/>
 
+Please find live demo at https://codepen.io/vijay1996/pen/eYNrdGq
+
 ## Installation
 <br/><br/>
 *Nue* is available as open source node package to all developers to use in projects.
