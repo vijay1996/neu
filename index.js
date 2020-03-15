@@ -140,9 +140,3 @@ module.export.applyNeu = applyNeu;
 module.export.alignElement = alignElement;
 module.export.applyNeuToElement = applyNeuToElement;
 module.export.removeNeuFromElement = removeNeuFromElement;
-
-applyNeu("");
-alignElement("span", "left");
-alignElement(".button", "center");
-applyNeuToElement(".button")
-removeNeuFromElement(".row");
