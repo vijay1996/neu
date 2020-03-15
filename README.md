@@ -1,24 +1,27 @@
 #Neu
+<br/><br/>
 ######Experience how just an import statement can make your webpage look cool
 <br/><br/>
 
 ##Installation
+<br/><br/>
 *Neu* is available as open source node package to all developers to use in projects.
 It can be installed by running the following node command: <br/>
 ```npm install neu --save```
 <br/><br/>
 
 ##Description
+<br/><br/>
 *Neu* is a simple node package that can convert your HTML skeleton to an awesome looking webpage. It makes use of the concept of Neomorphism to give stunning effects.
-<br/>
+<br/><br/>
 Following are the functions available for your use - 
-<br/>
+<br/><br/>
 **applyNeu()** to apply *Neu* to your webpage.
-<br/>
+<br/><br/>
 **alignElement(element, alignment)** to align a particular element to left, right or center.
-<br/>
+<br/><br/>
 **applyNeuToElement(element)** to apply *Neu* for a particular Element.
-<br/>
+<br/><br/>
 **removeNeuFromElement(element)** to remove *Neu* from a particular Element.
 <br/><br/>
 
