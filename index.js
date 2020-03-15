@@ -104,7 +104,7 @@ function styleElements(lightPosition) {
     }
 }
 
-function applyNeu(lightPosition = "TL") {
+function applyNue(lightPosition = "TL") {
     globalLightPosition = lightPosition;
     initialize();
     styleElements(lightPosition);
@@ -118,7 +118,7 @@ function alignElement(element, alignment) {
     });
 }
 
-function removeNeuFromElement(element) {
+function removeNueFromElement(element) {
     element = document.querySelectorAll(element);
         element.forEach(item => {
             item.style.boxShadow = "none";
@@ -126,7 +126,7 @@ function removeNeuFromElement(element) {
         });
 }
 
-function applyNeuToElement (element, lightPosition="") {
+function applyNueToElement (element, lightPosition="") {
     lightPosition = globalLightPosition;
     elements = document.querySelectorAll(element)
     elements.forEach(item => {
@@ -136,7 +136,7 @@ function applyNeuToElement (element, lightPosition="") {
     });
 }
 
-module.export.applyNeu = applyNeu;
+module.export.applyNue = applyNue;
 module.export.alignElement = alignElement;
-module.export.applyNeuToElement = applyNeuToElement;
-module.export.removeNeuFromElement = removeNeuFromElement;
+module.export.applyNueToElement = applyNueToElement;
+module.export.removeNueFromElement = removeNueFromElement;
