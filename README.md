@@ -6,7 +6,7 @@
 <br/><br/>
 *Nue* is available as open source node package to all developers to use in projects.
 It can be installed by running the following node command: <br/><br/>
-```npm install nue --save```
+```npm install nue.js --save```
 <br/><br/>
 
 ## Description
